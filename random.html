@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title></title>
+    <style type="text/css">
+    
+
+    #word {
+        width: 400px;
+        height: 400px;
+        border: 1px white;
+        transition: 0.2s;
+    text-align:center;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    }
+
+    body{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25;
+        color: rgb(45, 255, 13);
+    }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>CLICK FOR ORGANIZATIONS!!!</h1>
+        <div id="word"></div>
+        <script type="text/javascript">
+        var orgs = ["url(Fem.Maj.png.jpg)", "url(National.png.jpg)", "url(mj.png.jpg)"]
+    
+
+        var box = document.getElementById('word');
+      
+
+        document.addEventListener("click", function() {
+            var random = Math.floor(7*Math.random());
+            console.log(orgs[random])
+            box.style.backgroundImage = orgs[random];           
+        })
+
+        </script>
+    </center>
+</body>
+
+</html>
+
+        </script>
+    </center>
+</body>
+
+</html>
